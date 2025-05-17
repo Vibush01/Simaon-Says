@@ -4,7 +4,7 @@ const p = document.querySelector('p');
 // const btn_2 =document.querySelector('.div-2');
 // const btn_3 =document.querySelector('.div-3');
 // const btn_4 =document.querySelector('.div-4');
-
+// changes
 let level = 0;
 let started = false;
 let gameSeq = [];
