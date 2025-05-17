@@ -1,0 +1,57 @@
+h1,p {
+    text-align: center;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    margin: 20px auto;
+    padding: 12px;
+    display: flex;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.color{
+    height: 100px;
+    width: 100px;
+    border: 8px solid black;
+    border-radius: 8px;
+    /* background-color: black; */
+    margin: 10px;
+    cursor: pointer;
+}
+.div-1{
+    background-color: red;
+}
+.div-1:hover{
+    background-color: rgb(226, 8, 8);
+    transform: scale(1.05);
+}
+.div-2{
+    background-color: rgb(132, 0, 255);
+}
+.div-2:hover{
+    background-color: rgb(110, 5, 209);
+    transform: scale(1.05);
+}
+.div-3{
+    background-color: orange;
+}
+.div-3:hover{
+    background-color: rgb(221, 145, 3);
+    transform: scale(1.05);
+}
+.div-4{
+    background-color: green;
+}
+.div-4:hover{
+    background-color: rgb(7, 112, 7);
+    transform: scale(1.05);
+}
+.flash{
+    background-color: whitesmoke;
+}
+.userFlash{
+    background-color: greenyellow;
+}
